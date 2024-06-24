@@ -5,9 +5,8 @@ export const Container = styled.div`
   --black: #050505;
   --white: #ffff;
 
-  display: flex;
-  flex-flow: column;
-  gap: 8px;
+  display: grid;
+  gap: 10px;
 `;
 
 export const LinkText = styled.button`

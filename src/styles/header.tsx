@@ -2,11 +2,10 @@ import { styled } from "styled-components";
 
 export const Container = styled.div`
   margin: 80px 10px 20px 10px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+  
+  @media (max-width: 770px) {
+    margin: 0;
+  }
 `;
 
 export const Avatar = styled.img`

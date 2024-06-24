@@ -4,10 +4,10 @@ export const Container = styled.div`
   --munsell: #1B9AAA;
   --black: #050505;
 
-  display: flex;
-  flex-flow: row;
-  gap: 8px;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+
+  align-items: center;
   justify-content: center;
 
   .social-icons {
