@@ -7,7 +7,7 @@ const OtherLinks = () => {
         <LinkText>Caffeine Army</LinkText>
       </Link>
 
-      <Link href="https://www.notion.so/@aninhadev" target="_blank">
+      <Link href="https://www.notion.so/@anacbort_" target="_blank">
         <LinkText>My Notion Creator Page</LinkText>
       </Link>
 
@@ -19,7 +19,7 @@ const OtherLinks = () => {
         <LinkText>The News | Jornal</LinkText>
       </Link>
 
-      <Link href="https://ko-fi.com/aninhadev" target="_blank">
+      <Link href="https://ko-fi.com/anacbort" target="_blank">
         <LinkText>By me a coffee</LinkText>
       </Link>
     </Container>
