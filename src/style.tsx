@@ -17,7 +17,7 @@ export const MainContainer = styled.div`
 
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 
     width: auto;
     margin: 50px;
@@ -28,8 +28,24 @@ export const Container = styled.div`
   display: grid;
   gap: 10px;
   background-color: var(--bone);
-  width: fit-content;
+  width: 600px;
+  height: 400px;
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
+
+  @media (max-width: 1024px) {
+    width: fit-content;
+    height: auto;
+  }
+
+  @media (max-width: 770px) {
+    width: 500px;
+    height: auto;
+  }
+
+  @media (max-width: 430px) {
+    width: fit-content;
+    height: auto;
+  }
 `;

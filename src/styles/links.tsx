@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const LinkText = styled.button`
-  width: 450px;
+  width: 500px;
   height: 40px;
   border: none;
   border-radius: 10px;
@@ -21,6 +21,10 @@ export const LinkText = styled.button`
   color: var(--black);
 
   @media (max-width: 770px) {
+    width: 400px;
+  }
+
+  @media (max-width: 425px) {
     width: 350px;
   }
 `;
