@@ -1,0 +1,11 @@
+:root {
+  --bg-color: #F5F1E3;
+  --black: #050505;
+  --bone: #DDDBCB;
+  --munsell: #1B9AAA;
+  --white: #ffff;
+
+  
+  text-align: center;
+  background-color: var(--bg-color);
+}
