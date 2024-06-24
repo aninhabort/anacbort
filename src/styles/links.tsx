@@ -8,11 +8,10 @@ export const Container = styled.div`
   display: flex;
   flex-flow: column;
   gap: 8px;
-  width: 500px;
 `;
 
 export const LinkText = styled.button`
-  width: 500px;
+  width: 450px;
   height: 40px;
   border: none;
   border-radius: 10px;
@@ -21,6 +20,10 @@ export const LinkText = styled.button`
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   color: var(--black);
+
+  @media (max-width: 770px) {
+    width: 350px;
+  }
 `;
 
 export const Link = styled.a`
