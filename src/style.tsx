@@ -5,7 +5,7 @@ export const MainContainer = styled.div`
   grid-template-columns: 44% 1fr;
   justify-items: center;
   gap: 8px;
-  margin-top: 200px;
+  margin-top: 140px;
 
   @media (max-width: 1024px) {
     grid-template-columns: 40% 1fr;
@@ -21,6 +21,10 @@ export const MainContainer = styled.div`
 
     width: auto;
     margin: 50px;
+  }
+
+  @media (max-width: 430px) {
+    gap: 8px;
   }
 `;
 
@@ -45,7 +49,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 430px) {
-    width: fit-content;
+    width: 340px;
     height: auto;
   }
 `;

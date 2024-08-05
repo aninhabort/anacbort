@@ -12,6 +12,11 @@ export const Avatar = styled.img`
   width: 200px;
   height: 200px;
   border-radius: 50%;
+
+  @media (max-width: 430px) {
+    width: 140px;
+    height: 140px;
+  }
 `;
 
 export const Name = styled.p`

@@ -24,8 +24,8 @@ export const LinkText = styled.button`
     width: 400px;
   }
 
-  @media (max-width: 425px) {
-    width: 350px;
+  @media (max-width: 430px) {
+    width: 340px;
   }
 `;
 
