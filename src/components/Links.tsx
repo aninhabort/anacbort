@@ -27,9 +27,9 @@ const OtherLinks = () => {
       >
         <LinkText>My GoodReads profile</LinkText>
       </Link>
-      {/* <Link href="https://ko-fi.com/anacbort" target="_blank">
-        <LinkText>By me a coffee</LinkText>
-      </Link> */}
+      <Link href="https://ko-fi.com/anacbort" target="_blank">
+        <LinkText>Support me on Ko-fi</LinkText>
+      </Link>
     </Container>
   );
 };
