@@ -5,8 +5,17 @@ export const HeaderImg = styled.img`
   height: 300px;
   top: 0;
   left: 0;
+  right: 0;
   object-fit: cover;
   position: absolute;
+
+  @media (max-width: 770px) {
+    height: 200px;
+  }
+
+  @media (max-width: 430px) {
+    height: 180px;
+  }
 `;
 
 export const MainContainer = styled.div`
@@ -20,14 +29,14 @@ export const MainContainer = styled.div`
     grid-template-columns: 40% 1fr;
   } */
 
+  align-items: center;
+  justify-content: center;
+
   @media (max-width: 770px) {
     display: grid;
     grid-template-columns: 1fr;
-
     gap: 30px;
-
     width: auto;
-    margin: 50px;
   }
 
   @media (max-width: 430px) {
