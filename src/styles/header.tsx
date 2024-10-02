@@ -21,7 +21,7 @@ export const Avatar = styled.img`
 
 export const Name = styled.p`
   font-family: "Playwrite NZ", cursive;
-  font-weight: 300;
+  font-weight: bold;
   margin-top: 5px;
   font-size: 20px;
 `;

@@ -1,22 +1,29 @@
 import { styled } from "styled-components";
 
+export const HeaderImg = styled.img`
+  width: 100%;
+  height: 300px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+`;
+
 export const MainContainer = styled.div`
   display: grid;
-  grid-template-columns: 44% 1fr;
+  /* grid-template-columns: 44% 1fr; */
   justify-items: center;
-  gap: 8px;
-  margin-top: 140px;
+  position: relative;
+  margin-top: 100px;
 
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) {
     grid-template-columns: 40% 1fr;
-  }
+  } */
 
   @media (max-width: 770px) {
     display: grid;
     grid-template-columns: 1fr;
 
-    align-items: center;
-    justify-content: center;
     gap: 30px;
 
     width: auto;
@@ -31,10 +38,7 @@ export const MainContainer = styled.div`
 export const Container = styled.div`
   display: grid;
   gap: 10px;
-  background-color: var(--bone);
-  width: 600px;
-  height: 400px;
-  padding: 20px;
+  padding: 4px 8px;
   border-radius: 10px;
   margin: 20px;
 

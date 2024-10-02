@@ -1,24 +1,36 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-  --munsell: #1B9AAA;
-  --black: #050505;
-  --white: #ffff;
-
   display: grid;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
 `;
 
-export const LinkText = styled.button`
-  width: 500px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
+export const Text = styled.h3`
+  letter-spacing: 2px;
+  font-family: "Playwrite NZ", cursive;
+`;
+
+export const LinkText = styled.a`
   cursor: pointer;
+  align-content: center;
+  width: 500px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: var(--white);
+
+  text-decoration: none;
+  color: var(--brown);
   font-size: 16px;
-  font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-  color: var(--black);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+
+  &:hover {
+    background-color: var(--brown);
+    color: var(--white);
+  }
 
   @media (max-width: 770px) {
     width: 400px;
@@ -26,15 +38,5 @@ export const LinkText = styled.button`
 
   @media (max-width: 430px) {
     width: 340px;
-  }
-`;
-
-export const Link = styled.a`
-  text-decoration: none;
-
-  :hover {
-    background-color: var(--munsell);
-    color: var(--white);
-    font-weight: 400;
   }
 `;

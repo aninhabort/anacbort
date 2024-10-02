@@ -1,19 +1,21 @@
 import Header from "./components/Header";
 import Links from "./components/Links";
-import MyLinks from "./components/MyLinks";
 
-import { Container, MainContainer } from "./style";
+import { Container, HeaderImg, MainContainer } from "./style";
 
 function App() {
   return (
-    <MainContainer>
-      <Header />
+    <>
+      <HeaderImg src="src/assets/background.jpg" />
+      
+      <MainContainer>
+        <Header />
 
-      <Container>
-        <MyLinks />
-        <Links />        
-      </Container>
-    </MainContainer>
+        <Container>
+          <Links />
+        </Container>
+      </MainContainer>
+    </>
   );
 }
 

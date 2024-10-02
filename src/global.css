@@ -1,11 +1,13 @@
 :root {
   --bg-color: #F5F1E3;
   --black: #050505;
-  --bone: #DDDBCB;
-  --munsell: #1B9AAA;
+  --bone: #a38981;
+  --brown: #70564d;
   --white: #ffff;
 
-  
   text-align: center;
-  background-color: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+
+  background-color: var(--bone);
 }
