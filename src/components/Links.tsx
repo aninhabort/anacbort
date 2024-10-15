@@ -30,6 +30,13 @@ const OtherLinks = () => {
       </LinkText>
 
       <LinkText
+        href="https://www.sublyme.com.br?bon_loyalty_ref=KmRQ3ZdP7LCsYMm0pweK3VOaN7WdNrWzsXvuUTxPR%2BKkJP08x8ewjvTqL4u%2BlCAKg5JEfkyue83Ro5%2FljsDVWDzzBJFLcfPs4xAQYsb6k4qJjTsraX8v3aoq5163aRKNG1LbRkIOulTgxVJe4pFjgswpzcVdRz9ybh1YVlcprIc%3D&from_shop_domain=true&referrer_name=416e61204361726f6c696e615162"
+        target="_blank"
+      >
+        Sublyme
+      </LinkText>
+
+      <LinkText
         href="https://www.amazon.com.br/shop/aninha.dev"
         target="_blank"
       >
