@@ -7,7 +7,7 @@ import { Container, HeaderImg, MainContainer } from "./style";
 
 function App() {
   return (
-    <>
+    <main>
       <HeaderImg src={img} alt="Books in a library" />
       
       <MainContainer>
@@ -18,7 +18,7 @@ function App() {
         </Container>
       </MainContainer>
       <Analytics />
-    </>
+    </main>
   );
 }
 
