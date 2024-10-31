@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Links from "./components/Links";
 import img from './assets/background.jpg';
+import { Analytics } from "@vercel/analytics/react"
 
 import { Container, HeaderImg, MainContainer } from "./style";
 
@@ -16,6 +17,7 @@ function App() {
           <Links />
         </Container>
       </MainContainer>
+      <Analytics />
     </>
   );
 }
