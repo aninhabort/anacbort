@@ -8,7 +8,7 @@ import { Container, HeaderImg, MainContainer } from "./style";
 function App() {
   return (
     <>
-      <HeaderImg src={img} />
+      <HeaderImg src={img} alt="Books in a library" />
       
       <MainContainer>
         <Header />
