@@ -13,6 +13,7 @@ const OtherLinks = () => {
       >
         GoodReads
       </LinkText>
+      
       <Text>Afiliate</Text>
 
       <LinkText
@@ -37,10 +38,17 @@ const OtherLinks = () => {
       </LinkText>
 
       <LinkText
-        href="https://www.amazon.com.br/shop/aninha.dev"
+        href="https://amzn.to/4fZ8HoF"
         target="_blank"
       >
-        My Amazon Page
+        My Books on Amazon
+      </LinkText>
+
+      <LinkText
+        href="https://amzn.to/499allp"
+        target="_blank"
+      >
+        Skincare Products on Amazon
       </LinkText>
 
       <LinkText href="https://ko-fi.com/anacbort" target="_blank">
