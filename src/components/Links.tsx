@@ -8,7 +8,7 @@ const OtherLinks = () => {
       </LinkText>
 
       <LinkText
-        href="https://www.goodreads.com/user/show/178604941"
+        href="https://www.goodreads.com/anacbort"
         target="_blank"
       >
         GoodReads
