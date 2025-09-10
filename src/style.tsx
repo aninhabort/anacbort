@@ -20,14 +20,9 @@ export const HeaderImg = styled.img`
 
 export const MainContainer = styled.div`
   display: grid;
-  /* grid-template-columns: 44% 1fr; */
   justify-items: center;
   position: relative;
   margin-top: 100px;
-
-  /* @media (max-width: 1024px) {
-    grid-template-columns: 40% 1fr;
-  } */
 
   align-items: center;
   justify-content: center;
@@ -36,7 +31,6 @@ export const MainContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
-    width: auto;
   }
 
   @media (max-width: 430px) {
@@ -49,7 +43,7 @@ export const Container = styled.div`
   gap: 10px;
   padding: 4px 8px;
   border-radius: 10px;
-  margin: 20px;
+  width: auto;
 
   @media (max-width: 1024px) {
     width: fit-content;

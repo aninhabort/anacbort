@@ -1,8 +1,9 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: 50px 50px 50px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
 
   align-items: center;
   justify-content: center;
