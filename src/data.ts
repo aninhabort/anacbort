@@ -12,6 +12,7 @@ export interface dataProps {
   taskDocumentationTemplate: string;
   weeklyPlannerTemplate: string;
   myBooksAmazon: string;
+  kindleUnlimitedAmazon: string;
   skincareProductsAmazon: string;
   kofi: string;
 }
@@ -27,8 +28,9 @@ const data: dataProps = {
   },
   taskDocumentationTemplate: "https://www.notion.com/templates/task-documentation",
   weeklyPlannerTemplate: "https://www.notion.com/templates/your-weekly-planner",
-  myBooksAmazon: "https://amzn.to/4fZ8HoF",
-  skincareProductsAmazon: "https://amzn.to/499allp",
+  myBooksAmazon: "https://www.amazon.com.br/shop/aninha.dev/list/1DW22VSMRLA70?ref_=aipsflist",
+  kindleUnlimitedAmazon: "https://www.amazon.com.br/shop/aninha.dev/list/PRTOEGIXZWEK?ref_=aipsflist",
+  skincareProductsAmazon: "https://www.amazon.com.br/shop/aninha.dev/list/30ZEM60IMRJHA?ref_=aipsflist",
   kofi: "https://ko-fi.com/anacbort",
 };
 

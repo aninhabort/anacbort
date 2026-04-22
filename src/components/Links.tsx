@@ -7,6 +7,7 @@ const OtherLinks = ({
   taskDocumentationTemplate,
   weeklyPlannerTemplate,
   myBooksAmazon,
+  kindleUnlimitedAmazon,
   skincareProductsAmazon,
   kofi,
 }: dataProps) => {
@@ -25,6 +26,11 @@ const OtherLinks = ({
       <LinkText href={myBooksAmazon} target="_blank" rel="noreferrer noopener">
         My Books on Amazon
         <FaShoppingCart size={20} />
+      </LinkText>
+
+      <LinkText href={kindleUnlimitedAmazon} target="_blank" rel="noreferrer noopener">
+        Kindle Unlimited on Amazon
+        <FaBook size={20} />
       </LinkText>
 
       <LinkText href={skincareProductsAmazon} target="_blank" rel="noreferrer noopener">
