@@ -1,6 +1,6 @@
 import { LinkText, Container } from "../styles/links";
 import { dataProps } from "../data";
-import { FaBook, FaBookOpen, FaHeart } from "react-icons/fa6";
+import { FaBook, FaBookOpen } from "react-icons/fa6";
 import { IoWater } from "react-icons/io5";
 
 const OtherLinks = ({
@@ -9,16 +9,23 @@ const OtherLinks = ({
   myBooksAmazon,
   kindleUnlimitedAmazon,
   skincareProductsAmazon,
-  kofi,
 }: dataProps) => {
   return (
     <Container>
-      <LinkText href={taskDocumentationTemplate} target="_blank" rel="noreferrer noopener">
+      <LinkText
+        href={taskDocumentationTemplate}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         Task Documentation Template
         <FaBook size={20} />
       </LinkText>
 
-      <LinkText href={weeklyPlannerTemplate} target="_blank" rel="noreferrer noopener">
+      <LinkText
+        href={weeklyPlannerTemplate}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         Weekly Planner Template
         <FaBook size={20} />
       </LinkText>
@@ -28,19 +35,31 @@ const OtherLinks = ({
         <FaBookOpen size={20} />
       </LinkText>
 
-      <LinkText href={kindleUnlimitedAmazon} target="_blank" rel="noreferrer noopener">
+      <LinkText
+        href={kindleUnlimitedAmazon}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         Books on Kindle Unlimited
         <FaBookOpen size={20} />
       </LinkText>
 
-      <LinkText href={skincareProductsAmazon} target="_blank" rel="noreferrer noopener">
+      <LinkText
+        href={skincareProductsAmazon}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         Skincare Products
         <IoWater size={20} />
       </LinkText>
 
-      <LinkText href={kofi} target="_blank" rel="noreferrer noopener">
-        Support me on Ko-fi
-        <FaHeart size={20} />
+      <LinkText href="https://ko-fi.com/C0C658NHJ" target="_blank">
+        <img
+          height="36"
+          style={{ border: 0, height: 36 }}
+          src="https://storage.ko-fi.com/cdn/kofi1.png?v=6"
+          alt="Buy Me a Coffee at ko-fi.com"
+        />
       </LinkText>
     </Container>
   );
