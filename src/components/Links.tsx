@@ -1,12 +1,11 @@
 import { LinkText, Container } from "../styles/links";
-import { dataProps } from "../App";
+import { dataProps } from "../data";
 import { FaBook, FaHeart } from "react-icons/fa6";
-import { FaCoffee, FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 
 const OtherLinks = ({
   taskDocumentationTemplate,
   weeklyPlannerTemplate,
-  caffeineArmy,
   myBooksAmazon,
   skincareProductsAmazon,
   kofi,
@@ -21,11 +20,6 @@ const OtherLinks = ({
       <LinkText href={weeklyPlannerTemplate} target="_blank" rel="noreferrer noopener">
         Weekly Planner Template
         <FaBook size={20} />
-      </LinkText>
-
-      <LinkText href={caffeineArmy} target="_blank" rel="noreferrer noopener">
-        Caffeine Army
-        <FaCoffee size={20} />
       </LinkText>
 
       <LinkText href={myBooksAmazon} target="_blank" rel="noreferrer noopener">

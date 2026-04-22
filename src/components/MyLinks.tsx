@@ -1,6 +1,6 @@
 import { FaInstagram, FaThreads, FaTiktok, FaTwitter, FaGoodreads } from "react-icons/fa6";
 import { Container } from "../styles/myLinks";
-import { socialsProps } from "../App";
+import { socialsProps } from "../data";
 
 const SocialLinks = ({ tiktok, instagram, threads, x, goodreads }: socialsProps) => {
   return (

@@ -1,7 +1,7 @@
 import { Avatar, Container, Name, SubName } from "../styles/header";
 import avatar from '../assets/avatar.jpeg';
 import MyLinks from "../components/MyLinks";
-import { dataProps } from "../App";
+import { dataProps } from "../data";
 
 const Header = ({ socials }: dataProps) => {
   return (
