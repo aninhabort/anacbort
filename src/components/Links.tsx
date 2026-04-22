@@ -24,17 +24,17 @@ const OtherLinks = ({
       </LinkText>
 
       <LinkText href={myBooksAmazon} target="_blank" rel="noreferrer noopener">
-        My Books on Amazon
+        My Books
         <FaShoppingCart size={20} />
       </LinkText>
 
       <LinkText href={kindleUnlimitedAmazon} target="_blank" rel="noreferrer noopener">
-        Kindle Unlimited on Amazon
+        Books on Kindle Unlimited
         <FaBook size={20} />
       </LinkText>
 
       <LinkText href={skincareProductsAmazon} target="_blank" rel="noreferrer noopener">
-        Skincare Products on Amazon
+        Skincare Products
         <FaShoppingCart size={20} />
       </LinkText>
 
