@@ -1,7 +1,7 @@
 import { LinkText, Container } from "../styles/links";
 import { dataProps } from "../data";
-import { FaBook, FaHeart } from "react-icons/fa6";
-import { FaShoppingCart } from "react-icons/fa";
+import { FaBook, FaBookOpen, FaHeart } from "react-icons/fa6";
+import { IoWater } from "react-icons/io5";
 
 const OtherLinks = ({
   taskDocumentationTemplate,
@@ -25,17 +25,17 @@ const OtherLinks = ({
 
       <LinkText href={myBooksAmazon} target="_blank" rel="noreferrer noopener">
         My Books
-        <FaShoppingCart size={20} />
+        <FaBookOpen size={20} />
       </LinkText>
 
       <LinkText href={kindleUnlimitedAmazon} target="_blank" rel="noreferrer noopener">
         Books on Kindle Unlimited
-        <FaBook size={20} />
+        <FaBookOpen size={20} />
       </LinkText>
 
       <LinkText href={skincareProductsAmazon} target="_blank" rel="noreferrer noopener">
         Skincare Products
-        <FaShoppingCart size={20} />
+        <IoWater size={20} />
       </LinkText>
 
       <LinkText href={kofi} target="_blank" rel="noreferrer noopener">
