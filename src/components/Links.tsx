@@ -13,32 +13,32 @@ const OtherLinks = ({
 }: dataProps) => {
   return (
     <Container>
-      <LinkText href={taskDocumentationTemplate} target="_blank">
+      <LinkText href={taskDocumentationTemplate} target="_blank" rel="noreferrer noopener">
         Task Documentation Template
         <FaBook size={20} />
       </LinkText>
 
-      <LinkText href={weeklyPlannerTemplate} target="_blank">
+      <LinkText href={weeklyPlannerTemplate} target="_blank" rel="noreferrer noopener">
         Weekly Planner Template
         <FaBook size={20} />
       </LinkText>
 
-      <LinkText href={caffeineArmy} target="_blank">
+      <LinkText href={caffeineArmy} target="_blank" rel="noreferrer noopener">
         Caffeine Army
         <FaCoffee size={20} />
       </LinkText>
 
-      <LinkText href={myBooksAmazon} target="_blank">
+      <LinkText href={myBooksAmazon} target="_blank" rel="noreferrer noopener">
         My Books on Amazon
         <FaShoppingCart size={20} />
       </LinkText>
 
-      <LinkText href={skincareProductsAmazon} target="_blank">
+      <LinkText href={skincareProductsAmazon} target="_blank" rel="noreferrer noopener">
         Skincare Products on Amazon
         <FaShoppingCart size={20} />
       </LinkText>
 
-      <LinkText href={kofi} target="_blank">
+      <LinkText href={kofi} target="_blank" rel="noreferrer noopener">
         Support me on Ko-fi
         <FaHeart size={20} />
       </LinkText>
