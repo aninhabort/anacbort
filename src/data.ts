@@ -5,6 +5,7 @@ export interface socialsProps {
   x: string;
   goodreads: string;
   pagebound: string;
+  youtube: string;
 }
 
 export interface dataProps {
@@ -24,6 +25,7 @@ const data: dataProps = {
     x: "https://x.com/anacbort_",
     goodreads: "https://www.goodreads.com/anacbort_",
     pagebound: "https://pagebound.co/users/anacbort",
+    youtube: "https://www.youtube.com/@anacbort",
   },
   taskDocumentationTemplate: "https://www.notion.com/templates/task-documentation",
   weeklyPlannerTemplate: "https://www.notion.com/templates/your-weekly-planner",
