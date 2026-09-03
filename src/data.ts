@@ -15,6 +15,7 @@ export interface dataProps {
   myBooksAmazon: string;
   kindleUnlimitedAmazon: string;
   skincareProductsAmazon: string;
+  stylevana: string;
 }
 
 const data: dataProps = {
@@ -32,6 +33,7 @@ const data: dataProps = {
   myBooksAmazon: "https://www.amazon.com.br/shop/aninha.dev/list/1DW22VSMRLA70?ref_=aipsflist",
   kindleUnlimitedAmazon: "https://www.amazon.com.br/shop/aninha.dev/list/PRTOEGIXZWEK?ref_=aipsflist",
   skincareProductsAmazon: "https://www.amazon.com.br/shop/aninha.dev/list/30ZEM60IMRJHA?ref_=aipsflist",
+  stylevana: "https://vana.ly/aYltZR",
 };
 
 export default data;
