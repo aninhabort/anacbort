@@ -6,6 +6,7 @@ export interface socialsProps {
   goodreads: string;
   pagebound: string;
   youtube: string;
+  twitch: string;
 }
 
 export interface dataProps {
@@ -27,6 +28,7 @@ const data: dataProps = {
     goodreads: "https://www.goodreads.com/anacbort_",
     pagebound: "https://pagebound.co/users/anacbort",
     youtube: "https://www.youtube.com/@anacbort",
+    twitch: "https://www.twitch.tv/anacbort",
   },
   taskDocumentationTemplate: "https://www.notion.com/templates/task-documentation",
   weeklyPlannerTemplate: "https://www.notion.com/templates/your-weekly-planner",
