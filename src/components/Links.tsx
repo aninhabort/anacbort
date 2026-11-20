@@ -1,6 +1,6 @@
 import { LinkText, Container } from "../styles/links";
 import { dataProps } from "../data";
-import { FaBook, FaBookOpen, FaBagShopping } from "react-icons/fa6";
+import { FaBook, FaBookOpen, FaBagShopping, FaCamera } from "react-icons/fa6";
 import { IoWater } from "react-icons/io5";
 
 const OtherLinks = ({
@@ -10,6 +10,7 @@ const OtherLinks = ({
   kindleUnlimitedAmazon,
   skincareProductsAmazon,
   stylevana,
+  unsplash,
 }: dataProps) => {
   return (
     <Container>
@@ -57,6 +58,11 @@ const OtherLinks = ({
       <LinkText href={stylevana} target="_blank" rel="noreferrer noopener">
         Stylevana (code: SV15ANACBORT)
         <FaBagShopping size={20} />
+      </LinkText>
+
+      <LinkText href={unsplash} target="_blank" rel="noreferrer noopener">
+        My Photos on Unsplash
+        <FaCamera size={20} />
       </LinkText>
 
       <a href="https://ko-fi.com/C0C658NHJ" target="_blank">
